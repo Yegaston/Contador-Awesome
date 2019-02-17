@@ -1,0 +1,18 @@
+.vertical-margin-centered {
+    margin-top: 50%;
+    margin-bottom: 50%;
+}
+.vertical-margin {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.img-fosforos {
+    height: 12vh;
+    width: 22vw;
+}
+
+#eq2Border {
+    /* background-color: pink; */
+    /* border: 1px; */
+}
