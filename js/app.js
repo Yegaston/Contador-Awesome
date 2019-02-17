@@ -31,7 +31,7 @@ $(document).ready(function () {
         e.preventDefault();
         contador.teamName($('#eq1I').val(), 1);
         contador.teamName($('#eq2I').val(), 2);
-        contador.alternHide('seleccion');
+        contador.alternHide('seleccion', 'counter');
 
         $('#navF').html(`${eq1} VS ${eq2}`);
 

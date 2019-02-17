@@ -9,12 +9,14 @@ class Contador {
     }
     // Recive si o si un ID.
 
-    alternHide(elem) {
-        if ($(`#${elem}`).hasClass('hide')) {
+    alternHide(elem, view) {
+        if ($(`#${elem}`).hasClass('hide')){
+
             $(`#${elem}`).removeClass('hide');
             console.log("Inside If")
         } else {
             $(`#${elem}`).addClass('hide');
+            $(`#${view}`).removeClass('hide');
             console.log(`#${elem}`)
             console.log("Out If")
         }
